@@ -1,25 +1,28 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>To Do List</title>
-</head>
-<body>
-     <div class="list-body">
-            <h1>To Do List</h1>
-    
-            <label for="taskInput">New Task:</label>
-            <input id="taskInput" type="text" name="task" placeholder="What do you have to do?">
-            <button id="btnAddTask" type="button">Add Task</button>
-        
-            <ol id="taskList">
-               
-               
-            </ol>
-        </div>
-    
-    
-</body>
-<script src="main.js"></script>
+  </head>
+  <body>
+    <div class="list-container">
+      <h1>To Do List</h1>
+
+      <div class="input-container">
+        <input
+          id="taskInput"
+          type="text"
+          name="task"
+          placeholder="What do you have to do?"
+        />
+        <button id="btnAddTask" type="button">Add Task</button>
+      </div>
+
+      <div class="list-body">
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
 </html>
